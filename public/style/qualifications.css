@@ -1,0 +1,45 @@
+.quali_section {
+    height: 800px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.quali_list {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -50px;
+    gap: 400px;
+}
+
+.icon {
+    width: 100%;
+    height: auto;
+    scale: 25%;
+    position: relative;
+    right: -20px;
+}
+
+.quali_title {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quali_detail {
+    list-style: none;
+}
+
+.quali_item {
+    margin-bottom: 50px;
+}
+
+.quali_item h1 {
+    margin-bottom: 20px;
+}
+
+.quali_item h4 {
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0, 0.5);
+}
